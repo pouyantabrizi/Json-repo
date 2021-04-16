@@ -41,7 +41,30 @@
       "deleted_at": ""
     }
   ],
-  "user" : {
+  "messages": [
+    {
+      "id": 1,
+      "chatroom_id": 2187329812,
+      "user_id": 381738112,
+      "content": "Salam Maryam, khoobi? che khabara, nisti, dirooz omadam khoonatoon naboodi",
+      "seen": "false",
+      "created_at": "2019-07-12",
+      "updated_at": "2020-10-29",
+      "deleted_at": ""
+    },
+    {
+      "id": 1,
+      "chatroom_id": 2187329812,
+      "user_id": 193872384,
+      "content": "Salam Abbas, khoobam, are rafte boodam biroon",
+      "seen": "false",
+      "created_at": "2019-07-12",
+      "updated_at": "2020-10-29",
+      "deleted_at": ""
+    },
+    
+  ]
+  "user_info" : {
       "id": 381738112,
       "username": "abbas",
       "fullname": "booazar",
@@ -59,5 +82,51 @@
       "images_array": ["https://supermart.ae/5272-large_default/clear-men-shower-fresh-with-green-tea-citrus-essence-shampoo-400ml.jpg"],
       "created_at": "2019-01-18",
       "expired_at": "2020-10-25"
-    }
+    },
+  "notifications": 
+  [
+    {
+      "notification_id": 134928432812383,
+      "title": "Maryam Booazar matched with you",
+      "description": "congratulations! Maryam liked you a few minute ago",
+      "seen": "false",
+      "user_id": 381738112,
+      "created_at": "2019-01-18",
+      "updated_at": "2020-10-25",
+      "deleted_at": ""
+    },
+    {
+      "notification_id": 164928432710918,
+      "title": "Maryam sent you a message",
+      "description": "Salam Abbas booazar ...",
+      "seen": "false",
+      "user_id": 381738112,
+      "created_at": "2019-01-18",
+      "updated_at": "2020-10-25",
+      "deleted_at": ""
+    },
+  ],
+  "matches": 
+  [
+    {
+      "match_id": 1284912042912,
+      "first_user_id": 381738112,
+      "second_user_id": 728190332,
+      "second_user_liked": "false",
+      "status": "pending",
+      "created_at": "2019-01-18",
+      "updated_at": "2020-10-25",
+      "deleted_at": ""
+    },
+    {
+      "match_id": 2138912042771,
+      "first_user_id": 381738112,
+      "second_user_id": 602941339,
+      "second_user_liked": "true",
+      "status": "matched",
+      "created_at": "2019-01-18",
+      "updated_at": "2020-10-25",
+      "deleted_at": ""
+    },
+  ]
 }
